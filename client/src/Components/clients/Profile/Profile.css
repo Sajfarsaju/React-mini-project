@@ -1,0 +1,84 @@
+.cardSs .top-design {
+    width: 268px;
+    transform: rotate(-38deg);
+    position: relative;
+    top: -45px;
+    left: -49px;
+    background: rgba(68, 89, 37, 0.850);
+    height: 101px;
+    border-top: 26px solid rgba(68, 89, 37, 0.800);
+    border-bottom: 17px solid rgba(68, 89, 37, 0.800);
+    margin-left: -30px;
+    margin-right: -75px;
+}
+.cardSs {
+    overflow: hidden;
+    width: 500px;
+    height: 500px;
+    border-radius: 20px;
+    margin-top: 50px;
+    /* box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.1), 0 5px 10px 0 rgba(0, 0, 0, 0.1); */
+    box-shadow: 0 5px 10px rgb(123, 117, 117);
+    border-radius: 0 !important;
+}
+.cardSs .bottom-design {
+    width: 224px;
+    transform: rotate(-38deg);
+    position: relative;
+    bottom: -42px;
+    right: -278px;
+    background: rgba(68, 89, 37, 0.850);
+    border-top: 21px solid rgba(68, 89, 37, 0.800);
+    border-bottom: 40px solid rgba(68, 89, 37, 0.800);
+    margin-left: 50px;
+    height: 109px;
+}
+.avatar {
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+}
+
+.link-b .btn {
+    margin-left: 10px;
+    margin-bottom: 3px;
+}
+.addBtn {
+    display: inline-block;
+    width: 100%;
+    height: calc(1.5em + 0.75rem + 12px);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: rgb(77, 77, 77);
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    margin-top: 30px;
+    border-radius: 0.35rem;
+    border-color: transparent;
+    background-color: transparent;
+    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.344), 0 3px 5px 0 rgba(0, 0, 0, 0.261);
+    transition: all 0.4s ease-in-out;
+}
+.addBtn:focus {
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.344), 0 3px 5px 0 rgba(0, 0, 0, 0.261);
+}
+.addBtn:hover {
+    border-color: rgb(68, 89, 37);
+    background-color: rgb(68, 89, 37);
+    color: white;
+}
+.addBtn:focus {
+    border-color: rgba(68, 89, 37, 0.850);
+    background-color: rgba(68, 89, 37, 0.850);
+    color: white;
+}
+.link-b .h4 {
+    margin: 0;
+}
+.user-info {
+    position: relative;
+    margin-left: 30px;
+    top: 20px;
+}
